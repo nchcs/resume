@@ -1,0 +1,22 @@
+.flex-header{
+    display:flex;
+    background-color: green;
+}
+
+/*
+Add margins for initials*/
+.header-contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.contact-items {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
