@@ -1,6 +1,7 @@
 .flex-header{
     display:flex;
-    background-color: green;
+    background-color: #55613f;
+    
 }
 
 /*
@@ -19,4 +20,12 @@ Add margins for initials*/
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    min-width:150px;
+    fill: #dce0d2;
+  }
+
+
+  .body-container{
+    color: #dce0d2;
+    background-color: #878761;
   }
